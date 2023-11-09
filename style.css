@@ -4,6 +4,10 @@
     color: #03045e;
 }
 
+img {
+    width: 40vw;;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -24,8 +28,7 @@ button {
     color: white;
     background-color: #0077b6;
     border-radius: 20px;
-    width: fit-content;
-    height: 5vh;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -41,5 +44,7 @@ button {
 }
 
 #scores {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
