@@ -3,26 +3,40 @@ var startButton = document.querySelector("#start-button");
 var question = document.querySelector("#question")
 
 var quizQuestion = [{
-    title: "which of the following is false?",
-    a: "a",
-    b: "b",
-    c: "c",
-    d: "d",
-    correctAnswer: "a"
+    title: "Which of the following is NOT an Adobe Creative Cloud app?",
+    a: "Photoshop",
+    b: "Lightroom",
+    c: "Darkroom",
+    d: "Dreamweaver",
+    correctAnswer: "Darkroom"
 }, {
-    title: "cake is tasty",
-    a: "a",
-    b: "b",
-    c: "c",
-    d: "d",
-    correctAnswer: "a"
+    title: "Which of the following is the widest aperture?",
+    a: "f1.4",
+    b: "f22",
+    c: "f2",
+    d: "None of the above",
+    correctAnswer: "f1.4"
 }, {
-    title: "camera",
-    a: "a",
-    b: "b",        
-    c: "c",
-    d: "d",
-    correctAnswer: "a"
+    title: "Which setting doesn’t affect exposure?",
+    a: "ISO",
+    b: "focal length",        
+    c: "aperture",
+    d: "shutter speed",
+    correctAnswer: "focal length"
+}, {
+    title: "What does DSLR stand for?",
+    a: "Direct Sunlight Reflection",
+    b: "Digital Single Light Reflex",        
+    c: "Digital Sunlight Refraction",
+    d: "Digital Single Lens Reflex",
+    correctAnswer: "Digital Single Lens Reflex"
+}, {
+    title: "Which shutter speed is the fastest?",
+    a: "200",
+    b: "1/1000",        
+    c: "1/4",
+    d: "1",
+    correctAnswer: "1/1000"
 }]
 var time = 60
 var timer;
