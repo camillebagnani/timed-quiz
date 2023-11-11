@@ -1,11 +1,12 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inconsolata', monospace;
     background-color: #caf0f8;
     color: #03045e;
+    font-size: 30px;
 }
 
 img {
-    width: 40vw;;
+    width: 30vw;;
 }
 
 #nav {
@@ -32,6 +33,16 @@ button {
     font-size: 20px;
 }
 
+#start-button {
+    width: 10vw;
+    height: 5vh;
+    margin: 20px 0;
+}
+
+#question {
+    margin: 50px;
+}
+
 .multiple-choice {
     display: flex;
     flex-direction: column;
@@ -41,10 +52,19 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 30px #03045e solid;
+    margin: 30px 0;
 }
 
 #scores {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 30px #03045e solid;
+    font-size: 40px;
+    line-height: 2px;
+}
+
+#play-again {
+    padding: 0 0 40px;
 }
