@@ -6,13 +6,13 @@ This timed quiz was created to utilize HTML, CSS, JavaScript and Web API best pr
 
 ## Installation
 
-To deploy the timed quiz, visit the project repository on GitHub > Settings > Pages > Source > Branch (main) > Save. From here you can view the finished project on GitHub Pages. You can view it via GitHub Pages here: 
+To deploy the timed quiz, visit the project repository on GitHub > Settings > Pages > Source > Branch (main) > Save. From here you can view the finished project on GitHub Pages. You can view it via GitHub Pages here: https://camillebagnani.github.io/timed-quiz/
 
 ## Usage
 
 To begin the quiz, click the 'Start Quiz' button. Once clicked, the timer will begin and the first question will appear simultaneously. Select one of four multiple choice options to answer the question. Wrong answers will be penalized by docking 10 seconds from the time. Your final score will be the time left. After the last question, users will be prompted to enter their initials, and will be taken to the high score page.
 
-![screenshot of the character length prompt](./assets/character-length-prompt.png)
+![screenshot of how to start the quiz](./assets/quiz-start.png)
 
 ## Credits
 
