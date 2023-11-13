@@ -116,5 +116,5 @@ function saveScore() {
     // we save the scores and turn them into strings to be put in the highscore local storage
     localStorage.setItem("scores", JSON.stringify(highScores))
     // switches to the highscore page
-    window.location.replace("highscore.HTML")
+    window.location.assign("highscore.HTML")
 }
